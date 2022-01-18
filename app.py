@@ -1,4 +1,4 @@
-pip install scikit-learn
+$ pip install -U scikit-learn
 
 import streamlit as st
 import sklearn

@@ -1,4 +1,8 @@
+pip install streamlit
+pip install scikit-learn
+
 import streamlit as st
+import sklearn
 import pickle
 import pandas as pd
 import numpy as np

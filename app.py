@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
-import lightgbm as lgbm
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error
 from sklearn.cluster import KMeans

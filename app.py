@@ -49,7 +49,8 @@ def predict_(model, value_eur_input, age_input, height_cm_input, weight_kg_input
 
     features_df  = pd.DataFrame([features])
     
-    prediction_ = model.predict(features_df)
+    prediction_ = model.predict(features_df, round = 0)
+    prediction = int(prediction.Label[0])
 
     if prediction_ == 0:
         pred = 'red edildi.'

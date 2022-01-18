@@ -1,8 +1,9 @@
 import streamlit as st
-from sklearn import datasets
+pip install -U scikit-learn scipy matplotlib
 import pickle
 import pandas as pd
 import numpy as np
+import sklearn
 
 st.set_page_config(page_title="Football Player Wage Prediction", page_icon=":bank:", layout="wide")
 

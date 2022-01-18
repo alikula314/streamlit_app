@@ -2,8 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
-import scipy
-import sklearn
 
 st.set_page_config(page_title="Football Player Wage Prediction", page_icon=":bank:", layout="wide")
 

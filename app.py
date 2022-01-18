@@ -86,13 +86,3 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
-
-
-
-
-
-    
-    result_ = predict_(model, Gender_input, Married_input, Dependents_input, Education_input, Self_Employed_input, ApplicantIncome_input, CoapplicantIncome_input, LoanAmount_input, Loan_Amount_Term_input, Credit_History_input, Property_Area_input)
-
-
-

@@ -1,10 +1,11 @@
-pip install scikit-learn
-
+import sys
 import streamlit as st
 import pandas as pd
 import numpy as np
 import sklearn
 import pickle
+
+!pip install scikit-learn
 
 st.set_page_config(page_title="Football Player Wage Prediction", page_icon=":bank:", layout="wide")
 

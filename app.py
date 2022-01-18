@@ -27,8 +27,7 @@ league_name_input = st.selectbox(label = 'Your Clubs League Name', options = ('S
 club_position_input = st.selectbox(label = 'Player Position', options = ('CF','LW','SUB','ST','GK'))
 nationality_name_input = st.selectbox(label = 'Player Nationality Name', options = ('Argentina', 'Portugal'))
 preferred_foot_input = st.selectbox(label = 'Player Preferred Foot', options = ("Left", "Right"))
-work_rate_input = st.selectbox(label = 'Player Work Rate ', options = ("Low", "Medium", "High"))
-body_type_input = st.selectbox(label = 'Player Body Type', options = ("Normal", "Lean", "Stocky" , "Unique"))
+
 
 
 st.markdown("<h1 style='text-align: center; font-size: 40px;'>Summary:</h1>", unsafe_allow_html=True)

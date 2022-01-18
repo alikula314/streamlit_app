@@ -1,11 +1,32 @@
-import sys
 import streamlit as st
+import pickle
 import pandas as pd
 import numpy as np
-import sklearn
-import pickle
-
-!pip install scikit-learn
+import lightgbm as lgbm
+from sklearn.model_selection import KFold
+from sklearn.metrics import mean_squared_error
+from sklearn.cluster import KMeans
+import numpy as np
+import seaborn as sns
+from sklearn.metrics import roc_auc_score
+from matplotlib import pyplot as plt
+from sklearn.preprocessing import StandardScaler
+from sklearn.manifold import TSNE
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import classification_report
+from sklearn.model_selection import StratifiedKFold
+from sklearn.preprocessing import MinMaxScaler
+from mlxtend.plotting import plot_confusion_matrix
+from lightgbm import LGBMClassifier
+from sklearn.model_selection import GridSearchCV
+import xgboost as xgb
+from xgboost import XGBClassifier
+from xgboost import plot_importance
+from xgboost import cv
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Football Player Wage Prediction", page_icon=":bank:", layout="wide")
 

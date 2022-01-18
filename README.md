@@ -1,2 +1,0 @@
-# stremlit_app
-Footballer_wage_prediction_app

@@ -1,7 +1,8 @@
 import streamlit as st
-import pickle
 import pandas as pd
 import numpy as np
+import sklearn
+import pickle
 
 st.set_page_config(page_title="Football Player Wage Prediction", page_icon=":bank:", layout="wide")
 
@@ -26,6 +27,8 @@ league_name_input = st.selectbox(label = 'Your Clubs League Name', options = ('S
 club_position_input = st.selectbox(label = 'Player Position', options = ('CF','LW','SUB','ST','GK'))
 nationality_name_input = st.selectbox(label = 'Player Nationality Name', options = ('Argentina', 'Portugal'))
 preferred_foot_input = st.selectbox(label = 'Player Preferred Foot', options = ("Left", "Right"))
+work_rate_input = st.selectbox(label = 'Player Work Rate ', options = ("Low", "Medium", "High"))
+body_type_input = st.selectbox(label = 'Player Body Type', options = ("Normal", "Lean", "Stocky" , "Unique"))
 
 
 
